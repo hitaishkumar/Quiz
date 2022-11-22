@@ -27,10 +27,7 @@ body.correct{
 body.wrong{
     --hue:var(--hue-wrong);
 }
-/* .btn{
-    padding: 2px;
-    box-shadow: 0 0 10px 20px;
-} */
+
 .container{
     width: 500px;
     max-width: 80%;
@@ -45,4 +42,39 @@ body.wrong{
     grid-template-columns: repeat(2,auto);
     gap: 5px;
     padding: 10px 0;
+}
+.btn{
+    --hue :var(--hue-neutral);
+    border: 3px solid hsl(var(--hue),100%,30%);
+    background-color: hsl(var(--hue),100%,50%);
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: aliceblue;
+    outline: none;
+}
+.btn:hover{
+    border-color: rgb(9, 3, 0);
+}
+
+.btn.correct{
+    --hue: var(--hue-correct);
+    color:black;
+}
+.btn.wrong{
+    --hue: var(--hue-wrong);
+
+}
+.start-btn , .next-btn{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+
+}
+.controls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hide{
+    display: none;
 }

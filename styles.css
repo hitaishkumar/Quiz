@@ -81,7 +81,7 @@ body.wrong{
 }
 
 .btn.correct{
-    background: linear-gradient(-45deg, #79f625, #00ff4099, #daff35, #5768ff);
+    background: linear-gradient(-45deg, #79f625, #00ff4099, #daff35, #19ff84);
     --hue: var(--hue-correct);
     color:black;
 }

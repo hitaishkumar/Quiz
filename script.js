@@ -95,5 +95,16 @@ const questions = [
             {text:"Hitaish kumar " , correct: false},
 
         ]
+    },
+    {
+        question: "Who is She ?",
+        answers: [
+            {text:"Modu" , correct: true},
+            {text:"Palit" , correct: false},
+            {text:"Bonu" , correct: false},
+            {text:"mamun " , correct: false},
+
+        ]
     }
+
 ]
